@@ -1,0 +1,34 @@
+@import './vars.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+body,
+#root {
+  height: 1px;
+  min-height: 100%;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+}
