@@ -1,0 +1,22 @@
+.label {
+  width: 100%;
+  position: relative;
+  height: 48px;
+}
+
+.input {
+  height: 100%;
+  width: 100%;
+  border-radius: 24px;
+  border: 1px solid var(--luke-skywalker);
+  padding: 0 24px;
+}
+
+.inputChildren {
+  position: absolute;
+  top: 0;
+  right: 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
