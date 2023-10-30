@@ -1,5 +1,23 @@
 @import './vars.scss';
 
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../../../public/fonts/proximanova-bold.otf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../../../public/fonts/proximanova-regular.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../../../public/fonts/proximanova-light.otf');
+  font-weight: 300;
+}
+
 *,
 *::before,
 *::after {
@@ -12,6 +30,7 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Proxima Nova';
 }
 
 body,

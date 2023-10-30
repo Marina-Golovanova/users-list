@@ -1,0 +1,10 @@
+.layout {
+  width: 100%;
+}
+
+.cardsLayout {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 0.3fr));
+  gap: 24px;
+}

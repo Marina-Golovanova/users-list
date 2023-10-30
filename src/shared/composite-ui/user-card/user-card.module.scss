@@ -1,0 +1,38 @@
+.layout {
+  height: 314px;
+  box-shadow: 0px 0px 20px 0px var(--leia-organa);
+  padding: 24px;
+  transition: scale 0.3s;
+
+  &:hover {
+    scale: 1.05;
+    cursor: pointer;
+  }
+}
+
+.name {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.info {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 14px;
+  color: var(--r2-d2);
+  font-weight: 300;
+}
+
+.infoPoint {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: var(--han-solo);
+}
